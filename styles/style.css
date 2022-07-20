@@ -179,6 +179,9 @@ nav a{
 .last-2-nav{
     display: none;
 }
+.social-media{
+    display: none;
+}
 /* Home Page done */
 
 
@@ -288,6 +291,15 @@ nav a{
  }
  .last-2-nav{
     display: none;
+}
+.social-media{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+}
+.social-media a{
+    color: white;
 }
 }
 /* footer end  */
@@ -426,4 +438,9 @@ main{
     .nav-5, .nav-6{
         display: none;
     }
+    .social-media{
+        display: none;
+    }
 }
+
+/* THE END */

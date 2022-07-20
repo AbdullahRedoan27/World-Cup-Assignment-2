@@ -36,7 +36,7 @@ body{
     width: 700px;
     padding: 0px 0px 25px 40px;
 }
-.watch-live{
+.get-tickets{
     text-decoration: none;
     color: white;
     background-color: #9b072e;
@@ -146,4 +146,119 @@ nav{
 nav a{
     text-decoration: none;
     color: #ffffff3c;
+}
+
+/* Media Query start */
+
+
+/* Header */
+@media only screen and (max-width:668px) {
+    body{
+        width: 100%;
+    }
+    .header-box{
+        width: 100%;
+    }
+    .header-section{
+        width: 60%;
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+.fifa-headline{
+    font-size: 45px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    margin-left: 0;
+}
+.fifa-paragraph{
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 25px 10px;
+    padding-left: 0%;
+}
+.get-tickets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 20px;
+}
+.world-cup-img{
+    width: 100%;
+}
+ /* Header end */
+
+ /* Side panel and article start*/
+ .side-panel{
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin: 15px 0px 15px 0px;
+    align-items: center;
+ }
+ .side-panel a{
+    border: 2px solid #80808022;
+    font-size: 16px;
+    font-weight: 700;
+ }
+ .blog{
+    padding: 5px 40px;
+ }
+ main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .articles-panel{
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    width: 90%;
+    margin: 0;
+ }
+ .article{
+    width: 90%;
+ }
+ .article-image{
+    width: 100%;
+    margin: 0px 5px 5px 0px;
+ }
+ .article-title{
+    width: 90%;
+    padding: 0px;
+    margin: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .article-title-arg{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .view-all{
+    display: none;
+ }
+ /* side panel and articles done  */
+
+ /* Footer     */
+ footer{
+    width: 100%;
+    height: auto;
+ }
+ .goal{
+    padding-top: 25px;
+ }
+ hr{
+    width: 70%;
+ }
+ footer nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    row-gap: 25px;
+ }
 }
