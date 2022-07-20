@@ -59,13 +59,13 @@ body{
     width: 700px;
     padding: 0px 0px 25px 40px;
 }
-.watch-live{
+.get-tickets{
     text-decoration: none;
     color: white;
     background-color: #9b072e;
     padding: 15px;
     border-radius: 10px;
-    margin:25px 0px 0px 37px;
+    margin:20px 0px 0px 37px;
 }
 
 /* side panel */
@@ -176,6 +176,9 @@ nav a{
     text-decoration: none;
     color: #ffffff3c;
 }
+.last-2-nav{
+    display: none;
+}
 /* Home Page done */
 
 
@@ -209,7 +212,7 @@ nav a{
     padding: 0px 0px 25px 10px;
     padding-left: 0%;
 }
-.watch-live{
+.get-tickets{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -283,6 +286,9 @@ nav a{
     padding-bottom: 20px;
     row-gap: 25px;
  }
+ .last-2-nav{
+    display: none;
+}
 }
 /* footer end  */
 /* Mobile device done  */
@@ -333,7 +339,7 @@ html{
     width: 400px;
     padding: 0px 0px 25px 40px;
 }
-.watch-live{
+.get-tickets{
     text-decoration: none;
     color: white;
     background-color: #9b072e;
@@ -341,7 +347,7 @@ html{
     border-radius: 10px;
     margin:25px 0px 0px 37px;
 }
-/* Side panel */
+/* Side panel and article start */
 main{
     display: block;
     width: 100%;
@@ -398,4 +404,26 @@ main{
  hr{
     width:75% ; 
  }
+
+/* Side panel and article end */
+    .nav-center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+
+    .nav-center nav{
+        justify-content: space-around;
+    }
+    nav{
+        width: 80%;
+    }
+    .last-2-nav{
+        display: flex;
+        width: 30%;
+    }
+    .nav-5, .nav-6{
+        display: none;
+    }
 }
