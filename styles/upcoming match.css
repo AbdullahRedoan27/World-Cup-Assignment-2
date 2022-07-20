@@ -1,4 +1,3 @@
-/* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 /* commons */
 body{
@@ -85,7 +84,6 @@ main{
     grid-template-columns: repeat(3, 1fr);
     width: 990px;
     margin: 100px 0px 100px 0px;
-    box-shadow: 2px 2px 15px grey;
     border-radius: 15px;
 }
 .article{
@@ -100,29 +98,26 @@ main{
     border-radius: 10px;
     margin: 5px 0px 0px 5px;
 }
-.transfer{
-    border: 2px solid #404040cd;
-    border-radius: 5px;
-    width: 75px;
-    padding: 0px 5px;
-    margin: 20px 0px 0px 20px;
-}
 .article-title{
     font-size: 16px;
     font-weight:300;
-    padding-left: 20px;
+    padding-left: 35px;
+    margin-bottom: 0;
+}
+.article-title-arg{
+    font-size: 16px;
+    font-weight:300;
+    padding-left: 55px;
+    margin-bottom: 0;
+}
+.date-time{
+    /* margin:0px 5px 0px 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 0;
 }
-.time i{
-    margin:0px 5px 0px 10px;
-}
-.time{
-    margin:0px 15px 0px 10px;
-}
-.comments i{
-    margin-left: 10px;
-}
-/* Articles-panel */
+/* Articles-panel end*/
 
 /* Footer */
 footer{
@@ -152,4 +147,3 @@ nav a{
     text-decoration: none;
     color: #ffffff3c;
 }
-/* Home Page done */
