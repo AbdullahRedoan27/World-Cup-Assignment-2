@@ -25,6 +25,28 @@ body{
     width: 345px;
     padding-right: 25px;
     padding-top: 10px;
+    width: 95%;
+    transition: all linear .5s;
+}.header-section:hover .laeeb{
+    opacity: 1;
+}
+.header-section:hover .world-cup-img{
+    opacity: 0;
+}
+.header-image{
+    position: relative;
+    display: inline-block;
+}
+.laeeb{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 110%;
+    transition: all linear .5s;
+
+    
+    /* transition section  */
 }
 .fifa-headline{
     font-size: 60px;
@@ -121,6 +143,9 @@ main{
 .comments i{
     margin-left: 10px;
 }
+.view-all{
+    display: none;
+ }
 /* Articles-panel */
 
 /* Footer */
@@ -193,7 +218,7 @@ nav a{
  /* Header */
  /* Side panel */
  .side-panel{
-    background-color: rgb(247, 0, 0);
+    background-color: rgb(255, 255, 255);
     margin-top: 20px;
     margin: 15px 0px 15px 0px;
     align-items: center;
@@ -220,11 +245,17 @@ nav a{
  .article{
     width: 90%;
  }
+ .last-article{
+    margin-bottom: 25px;
+ }
  .article-image{
     width: 100%;
     margin: 0px 5px 5px 0px;
-/* Footer     */
  }
+ .view-all{
+    display: none;
+ }
+ /* Footer     */
  footer{
     width: 100%;
     height: auto;
@@ -248,25 +279,33 @@ nav a{
 
 @media only screen and (min-width:668px) and (max-width:992px){
    /* Header  */
-   .header-box{
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-y: hidden;
 }
 .header-section{
     display: flex;
-    width: 1100px;
-    background-color: #0b0b0b;
+    justify-content: center;
+    width: 710px;
+    /* background-color: #0b0b0b; */
     color: white;
-    padding: 50px;
+    padding:30px 25px 0px 25px;
     margin-top: 25px;
     border-radius: 25px;
 }
+.header-texts{
+    width: 400px;
+    padding-left: 0px;
+}
+.header-image{
+    padding:0px 20px 25px 0px;
+}
 .world-cup-img{
-    width: 345px;
-    padding-right: 25px;
-    padding-top: 10px;
+    width: 320px;
+    padding-right:10px 25px 25px 0px;
+    /* padding-top: 10px; */
 }
 .fifa-headline{
     font-size: 60px;
@@ -296,13 +335,52 @@ main{
     display: flex;
     flex-direction: row;
     background-color: white;
-    width: 100%;
+    width: 91%;
     justify-content: space-between;
     margin: 0;
+    height: 25px;
 }
 .side-panel-buttons{
     height: 25px;
-    width: 300px;
+    width: 200px;
     border:2px solid #3f3f3f12;
 }
+.articles-panel{
+    grid-template-columns: repeat(2,1fr);
+    margin: 10px;
+    width: 95%;
+    justify-items: center;
+    padding: 0;
+    margin-top: 20px;
+}
+.article{
+    width: 75%;
+}
+.article-image{
+    width: 310px;
+}
+.article-title{
+    width: 310px;
+}
+.last-article{
+    display: none;
+}
+.view-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+.view-all a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #9b072e;
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px;
+ }
+ hr{
+    width:75% ; 
+ }
 }
