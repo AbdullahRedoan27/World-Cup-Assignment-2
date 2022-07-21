@@ -45,7 +45,9 @@ body{
     margin:25px 0px 0px 37px;
 }
 
-/* side panel */
+/* Header End  */
+
+/* side panel start*/
 
 .side-panel{
     display: flex;
@@ -72,9 +74,9 @@ body{
     color: white;
 }
 
-/* Side-panel */
+/* Side-panel End*/
 
-/* Articles panel */
+/* Articles panel start*/
 
 main{
     display: flex;
@@ -111,7 +113,6 @@ main{
     margin-bottom: 0;
 }
 .date-time{
-    /* margin:0px 5px 0px 20px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,7 +120,7 @@ main{
 }
 /* Articles-panel end*/
 
-/* Footer */
+/* Footer Start*/
 footer{
     background-color: #0b0b0b;
     height: 300px;
@@ -147,10 +148,11 @@ nav a{
     text-decoration: none;
     color: #ffffff3c;
 }
+/* Footer End  */
 
 /* Media Query start */
 
-
+/* Mobile Device */
 /* Header */
 @media only screen and (max-width:668px) {
     body{
@@ -241,9 +243,9 @@ nav a{
  .view-all{
     display: none;
  }
- /* side panel and articles done  */
+ /* side panel and articles end  */
 
- /* Footer     */
+ /* Footer start */
  footer{
     width: 100%;
     height: auto;
@@ -262,3 +264,4 @@ nav a{
     row-gap: 25px;
  }
 }
+/* Footer End  */

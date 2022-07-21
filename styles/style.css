@@ -46,7 +46,8 @@ body{
     transition: all linear .5s;
 
 
-    /* transition section  */
+    /* Transition section End */
+
 }
 .fifa-headline{
     font-size: 60px;
@@ -68,7 +69,9 @@ body{
     margin:20px 0px 0px 37px;
 }
 
-/* side panel */
+/* Header End */
+
+/* side panel start */
 
 .side-panel{
     display: flex;
@@ -95,9 +98,9 @@ body{
     color: white;
 }
 
-/* Side-panel */
+/* Side-panel End */
 
-/* Articles panel */
+/* Articles panel Start */
 
 main{
     display: flex;
@@ -146,9 +149,9 @@ main{
 .view-all{
     display: none;
  }
-/* Articles-panel */
+/* Articles-panel End */
 
-/* Footer */
+/* Footer Start */
 footer{
     background-color: #0b0b0b;
     height: 300px;
@@ -182,12 +185,14 @@ nav a{
 .social-media{
     display: none;
 }
+
+/* Footer End  */
 /* Home Page done */
 
 
 /* Media Query start */
 
-
+/* Mobile Device */
 /* Header */
 @media only screen and (max-width:668px) {
     body{
@@ -271,7 +276,7 @@ nav a{
  /* side panel and articles done  */
 
 
- /* Footer     */
+ /* Footer start */
  footer{
     width: 100%;
     height: auto;
@@ -318,7 +323,6 @@ html{
     display: flex;
     justify-content: center;
     width: 710px;
-    /* background-color: #0b0b0b; */
     color: white;
     padding:30px 25px 0px 25px;
     margin-top: 25px;
@@ -334,7 +338,6 @@ html{
 .world-cup-img{
     width: 320px;
     padding-right:10px 25px 25px 0px;
-    /* padding-top: 10px; */
 }
 .laeeb{
     margin: 45px;
@@ -359,6 +362,9 @@ html{
     border-radius: 10px;
     margin:25px 0px 0px 37px;
 }
+/* Header End  */
+
+
 /* Side panel and article start */
 main{
     display: block;
@@ -418,6 +424,8 @@ main{
  }
 
 /* Side panel and article end */
+
+/* Footer start  */
     .nav-center{
         display: flex;
         flex-direction: column;
@@ -442,5 +450,7 @@ main{
         display: none;
     }
 }
+
+/* Footer End  */
 
 /* THE END */
